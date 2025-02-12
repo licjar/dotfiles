@@ -1,0 +1,21 @@
+general.live_config_reload = true
+
+general.import = [
+ "~/.config/alacritty/themes/expo-dark.toml"
+]
+
+[font]
+size=19
+
+[font.normal]
+ family = "SauceCodePro Nerd Font"
+ style = "Regular"
+
+[font.bold]
+ family = "SauceCodePro Nerd Font"
+ style = "Bold"
+
+[font.italic]
+ family = "SauceCodePro Nerd Font"
+ style = "Italic"
+

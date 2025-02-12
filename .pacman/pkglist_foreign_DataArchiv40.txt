@@ -1,0 +1,14 @@
+ani-cli
+bemoji
+fcitx5-mozc-ut
+fcitx5-qt-google-earth
+gemini-cli
+google-earth-pro
+google-earth-pro-libproxy-patch
+grimshot-bin-sway
+vesktop
+wl-color-picker
+wlogout
+yay
+yay-debug
+zotero-bin

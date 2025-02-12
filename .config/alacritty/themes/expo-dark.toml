@@ -1,0 +1,34 @@
+# Colors (expo)
+# author licjar
+
+[colors.primary]
+background = '#101920'
+foreground = '#fffef6'
+
+[colors.cursor]
+text = 'CellBackground'
+cursor = '#F8C067'
+
+[colors.selection]
+text = 'CellBackground'
+background = '#F8C067'
+
+[colors.normal]
+black = '#000000'
+red = '#ff5871'
+green = '#f8fc5d'
+yellow = '#eedd85'
+blue = '#3288d3'
+magenta = '#ff83a8'
+cyan = '#3fdee2'
+white = '#b0b4b1'
+
+[colors.bright]
+black = '#626a6b'
+red = '#ff95b3'
+green = '#ffff9c'
+yellow = '#fefbc8'
+blue = '#5dcaf8'
+magenta = '#ffc6e3'
+cyan = '#72fcfc'
+white = '#ffffff'

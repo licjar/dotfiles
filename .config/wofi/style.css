@@ -1,0 +1,9 @@
+* {
+   font-family: "SourceCode Pro";
+   font-size: 30px
+}
+
+#window {
+   padding: 5px;
+   border: 20px
+}

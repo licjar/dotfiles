@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Updating pkglists after installs and removes...
+When = PostTransaction
+Exec = /bin/sh -c '/usr/bin/pacman -Qqem > /home/licjar/.pacman/pkglist_foreign_DataArchiv40.txt'
