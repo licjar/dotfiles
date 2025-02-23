@@ -65,6 +65,7 @@ ppsspp
 pulseaudio-alsa
 slurp
 smartmontools
+starship
 steam
 sway
 swaybg
@@ -100,3 +101,4 @@ xorg-server
 xorg-xeyes
 xorg-xinit
 xorg-xwayland
+zsh

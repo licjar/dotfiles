@@ -1,7 +1,7 @@
 -- config
 require("opt")
 
--- plugins
+-- lazy 
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -18,9 +18,6 @@ vim.opt.rtp:prepend(lazypath)
 local lazy_user_config = vim.api.nvim_create_augroup('lazy_user_config', {
   clear = false
 })
-
--- Example using a list of specs with the default options
-vim.g.mapleader = ' ' -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require('lualine.themes.expo_dark')
 require('lazy').setup('plugins')

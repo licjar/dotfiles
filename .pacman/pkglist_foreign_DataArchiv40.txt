@@ -6,6 +6,7 @@ gemini-cli
 google-earth-pro
 google-earth-pro-libproxy-patch
 grimshot-bin-sway
+phinger-cursors
 vesktop
 wl-color-picker
 wlogout
