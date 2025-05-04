@@ -99,7 +99,8 @@ return {
     opts = {
       ensure_installed = {
         "ts_ls",
-        "lua_ls"
+        "lua_ls",
+	"rust_analyzer"
       },
       automatic_installation = true
     },
@@ -144,6 +145,39 @@ return {
     'nvim-tree/nvim-tree.lua',
     opts = {},
     dependencies = { 'nvim-tree/nvim-web-devicons' }
+  },
+
+  {
+    'mfussenegger/nvim-dap',
+  },
+
+  {
+    'mrcjkb/rustaceanvim',
+    -- version = '^5', -- Recommended
+    lazy = false, -- This plugin is already lazy
+  },
+
+  {
+    'kylechui/nvim-surround',
+    event = "VeryLazy",
+    config = function()
+      require("nvim-surround").setup({
+      -- Configuration here, or leave empty to use defaults
+      })
+    end
+  },
+
+  {
+    "roobert/surround-ui.nvim",
+    dependencies = {
+      "kylechui/nvim-surround",
+      "folke/which-key.nvim",
+    },
+    config = function()
+      require("surround-ui").setup({
+        root_key = "S",
+      })
+    end,
   }
 }
 

@@ -6,7 +6,9 @@ gemini-cli
 google-earth-pro
 google-earth-pro-libproxy-patch
 grimshot-bin-sway
+minecraft-launcher
 phinger-cursors
+slack-desktop
 vesktop
 wl-color-picker
 wlogout

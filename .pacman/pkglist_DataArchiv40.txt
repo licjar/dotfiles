@@ -2,6 +2,7 @@ adobe-source-han-serif-otc-fonts
 alacritty
 amd-ucode
 arch-install-scripts
+at
 base
 base-devel
 bitwarden
@@ -28,6 +29,7 @@ git
 grim
 grub
 gst-plugin-pipewire
+helix
 htop
 imagemagick
 iwd
@@ -51,6 +53,7 @@ noto-fonts-emoji
 ntfs-3g
 nvidia-open
 nwg-look
+obsidian
 openrgb
 openssh
 os-prober
@@ -61,10 +64,15 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pnpm
 ppsspp
+prismlauncher
 pulseaudio-alsa
+python-pip
+rust-analyzer
 slurp
 smartmontools
+solaar
 starship
 steam
 sway
@@ -72,6 +80,7 @@ swaybg
 swayidle
 swayimg
 swaylock
+syncthing
 thunar
 tmux
 ttf-dejavu
@@ -101,4 +110,5 @@ xorg-server
 xorg-xeyes
 xorg-xinit
 xorg-xwayland
+zellij
 zsh

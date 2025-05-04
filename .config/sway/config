@@ -47,7 +47,7 @@ bindsym --to-code $mod+x mode $exit
 font "SourceCode Pro", "Source Han Serif" 20
 
 ### Appearance
-default_border pixel 3
+default_border pixel 6
 
 ### Output configuration
 #
