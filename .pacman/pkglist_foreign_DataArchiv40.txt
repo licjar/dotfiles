@@ -7,11 +7,11 @@ google-earth-pro
 google-earth-pro-libproxy-patch
 grimshot-bin-sway
 minecraft-launcher
+neofetch
 phinger-cursors
 slack-desktop
 vesktop
 wl-color-picker
 wlogout
 yay
-yay-debug
 zotero-bin

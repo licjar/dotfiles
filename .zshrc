@@ -13,7 +13,7 @@ compinit
 
 eval "$(starship init zsh)"
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto -a'
 alias grep='grep --color=auto'
 
 # ssh-agent login session permanence
@@ -26,3 +26,5 @@ fi
 
 # dotfiles alias
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+# path
+export PATH=$HOME/.local/bin:$PATH

@@ -10,11 +10,14 @@ bitwarden-cli
 bluez
 bluez-utils
 brightnessctl
+calibre
 cmatrix
 code
 discord
 dmenu
 dnsmasq
+dysk
+ed
 efibootmgr
 fcitx5-chinese-addons
 fcitx5-configtool
@@ -46,7 +49,6 @@ linux-firmware
 man-db
 mupdf
 nano
-neofetch
 neovim
 noto-fonts
 noto-fonts-emoji
@@ -64,11 +66,11 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-pnpm
 ppsspp
 prismlauncher
 pulseaudio-alsa
 python-pip
+rofimoji
 rust-analyzer
 slurp
 smartmontools
@@ -90,6 +92,7 @@ ttf-linux-libertine
 ttf-sourcecodepro-nerd
 typescript
 typescript-language-server
+unicode-character-database
 usbutils
 vim
 waybar

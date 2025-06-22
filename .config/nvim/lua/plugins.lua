@@ -100,7 +100,8 @@ return {
       ensure_installed = {
         "ts_ls",
         "lua_ls",
-	"rust_analyzer"
+	"rust_analyzer",
+	"tinymist"
       },
       automatic_installation = true
     },
@@ -178,6 +179,19 @@ return {
         root_key = "S",
       })
     end,
+  },
+
+  {
+    'chomosuke/typst-preview.nvim',
+    lazy = false, -- or ft = 'typst'
+    version = '1.*',
+    opts = {}, -- lazy.nvim will implicitly calls `setup {}`
+  },
+
+  {
+    'tpope/vim-repeat',
+    lazy = false,
   }
 }
+
 

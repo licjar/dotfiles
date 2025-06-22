@@ -1,5 +1,5 @@
 export XMODIFIERS=@im=fcitx
 export QT_IM_MODULE=fcitx
-# export GDK_DPI_SCALE=2
+export GDK_DPI_SCALE=2
 export QT_SCALE_FACTOR=2
 export STEAM_FORCE_DESKTOPUI_SCALING=2
